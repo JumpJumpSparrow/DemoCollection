@@ -1,7 +1,3 @@
-## 写在前面
-由于很多 demo 上传之后，可能就不会再维护了，而这些 demo 在 github 上不太需要被检索到，但是会占用一个 repository。为了方便管理，把这些demo都集中放在这里，这里也只是单纯地作为一个存放 demo 的地方。每个demo 都会写一些基本的介绍在下方。
-
-
 ### tableview 中包含多个输入框时，该如何优雅地处理？
 
 1.剥离 UI 层，UI层输出固定数据  
@@ -12,10 +8,3 @@
 <img width="290" height="640"  src="https://github.com/JumpJumpSparrow/DemoCollection/blob/master/screenShot.png"/>
 </p>  
  
-
-
-
-## MYAlertViewController
-自定义AlertController
- 直接将 MCFAlertController.h 和.m 文件加入工程中即可，可自定义 显示标题颜色。
-

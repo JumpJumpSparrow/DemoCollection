@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36321368224FCC8A0018CCF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36321367224FCC8A0018CCF5 /* AppDelegate.m */; };
+		3632136B224FCC8A0018CCF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3632136A224FCC8A0018CCF5 /* ViewController.m */; };
+		3632136E224FCC8A0018CCF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3632136C224FCC8A0018CCF5 /* Main.storyboard */; };
+		36321370224FCC8B0018CCF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3632136F224FCC8B0018CCF5 /* Assets.xcassets */; };
+		36321373224FCC8B0018CCF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36321371224FCC8B0018CCF5 /* LaunchScreen.storyboard */; };
+		36321376224FCC8B0018CCF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36321375224FCC8B0018CCF5 /* main.m */; };
+		36321380224FCC8B0018CCF5 /* Multi_textfield_tableviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3632137F224FCC8B0018CCF5 /* Multi_textfield_tableviewTests.m */; };
+		3632138B224FCC8B0018CCF5 /* Multi_textfield_tableviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3632138A224FCC8B0018CCF5 /* Multi_textfield_tableviewUITests.m */; };
+		3655307222510E9B00AA4679 /* MultiTextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3655307122510E9B00AA4679 /* MultiTextFieldTableViewCell.m */; };
+		3655307522510EE000AA4679 /* MultiTextFieldModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3655307422510EE000AA4679 /* MultiTextFieldModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3632137C224FCC8B0018CCF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3632135B224FCC890018CCF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36321362224FCC8A0018CCF5;
+			remoteInfo = "Multi-textfield-tableview";
+		};
+		36321387224FCC8B0018CCF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3632135B224FCC890018CCF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36321362224FCC8A0018CCF5;
+			remoteInfo = "Multi-textfield-tableview";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36321363224FCC8A0018CCF5 /* Multi-textfield-tableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multi-textfield-tableview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36321366224FCC8A0018CCF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36321367224FCC8A0018CCF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36321369224FCC8A0018CCF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3632136A224FCC8A0018CCF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3632136D224FCC8A0018CCF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3632136F224FCC8B0018CCF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36321372224FCC8B0018CCF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36321374224FCC8B0018CCF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36321375224FCC8B0018CCF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3632137B224FCC8B0018CCF5 /* Multi-textfield-tableviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multi-textfield-tableviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3632137F224FCC8B0018CCF5 /* Multi_textfield_tableviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Multi_textfield_tableviewTests.m; sourceTree = "<group>"; };
+		36321381224FCC8B0018CCF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36321386224FCC8B0018CCF5 /* Multi-textfield-tableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multi-textfield-tableviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3632138A224FCC8B0018CCF5 /* Multi_textfield_tableviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Multi_textfield_tableviewUITests.m; sourceTree = "<group>"; };
+		3632138C224FCC8B0018CCF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3655307022510E9B00AA4679 /* MultiTextFieldTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiTextFieldTableViewCell.h; sourceTree = "<group>"; };
+		3655307122510E9B00AA4679 /* MultiTextFieldTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiTextFieldTableViewCell.m; sourceTree = "<group>"; };
+		3655307322510EE000AA4679 /* MultiTextFieldModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiTextFieldModel.h; sourceTree = "<group>"; };
+		3655307422510EE000AA4679 /* MultiTextFieldModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiTextFieldModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36321360224FCC8A0018CCF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36321378224FCC8B0018CCF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36321383224FCC8B0018CCF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3632135A224FCC890018CCF5 = {
+			isa = PBXGroup;
+			children = (
+				36321365224FCC8A0018CCF5 /* Multi-textfield-tableview */,
+				3632137E224FCC8B0018CCF5 /* Multi-textfield-tableviewTests */,
+				36321389224FCC8B0018CCF5 /* Multi-textfield-tableviewUITests */,
+				36321364224FCC8A0018CCF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36321364224FCC8A0018CCF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36321363224FCC8A0018CCF5 /* Multi-textfield-tableview.app */,
+				3632137B224FCC8B0018CCF5 /* Multi-textfield-tableviewTests.xctest */,
+				36321386224FCC8B0018CCF5 /* Multi-textfield-tableviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36321365224FCC8A0018CCF5 /* Multi-textfield-tableview */ = {
+			isa = PBXGroup;
+			children = (
+				36321366224FCC8A0018CCF5 /* AppDelegate.h */,
+				36321367224FCC8A0018CCF5 /* AppDelegate.m */,
+				36321369224FCC8A0018CCF5 /* ViewController.h */,
+				3632136A224FCC8A0018CCF5 /* ViewController.m */,
+				3655307022510E9B00AA4679 /* MultiTextFieldTableViewCell.h */,
+				3655307122510E9B00AA4679 /* MultiTextFieldTableViewCell.m */,
+				3655307322510EE000AA4679 /* MultiTextFieldModel.h */,
+				3655307422510EE000AA4679 /* MultiTextFieldModel.m */,
+				3632136C224FCC8A0018CCF5 /* Main.storyboard */,
+				3632136F224FCC8B0018CCF5 /* Assets.xcassets */,
+				36321371224FCC8B0018CCF5 /* LaunchScreen.storyboard */,
+				36321374224FCC8B0018CCF5 /* Info.plist */,
+				36321375224FCC8B0018CCF5 /* main.m */,
+			);
+			path = "Multi-textfield-tableview";
+			sourceTree = "<group>";
+		};
+		3632137E224FCC8B0018CCF5 /* Multi-textfield-tableviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3632137F224FCC8B0018CCF5 /* Multi_textfield_tableviewTests.m */,
+				36321381224FCC8B0018CCF5 /* Info.plist */,
+			);
+			path = "Multi-textfield-tableviewTests";
+			sourceTree = "<group>";
+		};
+		36321389224FCC8B0018CCF5 /* Multi-textfield-tableviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3632138A224FCC8B0018CCF5 /* Multi_textfield_tableviewUITests.m */,
+				3632138C224FCC8B0018CCF5 /* Info.plist */,
+			);
+			path = "Multi-textfield-tableviewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36321362224FCC8A0018CCF5 /* Multi-textfield-tableview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3632138F224FCC8B0018CCF5 /* Build configuration list for PBXNativeTarget "Multi-textfield-tableview" */;
+			buildPhases = (
+				3632135F224FCC8A0018CCF5 /* Sources */,
+				36321360224FCC8A0018CCF5 /* Frameworks */,
+				36321361224FCC8A0018CCF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multi-textfield-tableview";
+			productName = "Multi-textfield-tableview";
+			productReference = 36321363224FCC8A0018CCF5 /* Multi-textfield-tableview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3632137A224FCC8B0018CCF5 /* Multi-textfield-tableviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36321392224FCC8B0018CCF5 /* Build configuration list for PBXNativeTarget "Multi-textfield-tableviewTests" */;
+			buildPhases = (
+				36321377224FCC8B0018CCF5 /* Sources */,
+				36321378224FCC8B0018CCF5 /* Frameworks */,
+				36321379224FCC8B0018CCF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3632137D224FCC8B0018CCF5 /* PBXTargetDependency */,
+			);
+			name = "Multi-textfield-tableviewTests";
+			productName = "Multi-textfield-tableviewTests";
+			productReference = 3632137B224FCC8B0018CCF5 /* Multi-textfield-tableviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36321385224FCC8B0018CCF5 /* Multi-textfield-tableviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36321395224FCC8B0018CCF5 /* Build configuration list for PBXNativeTarget "Multi-textfield-tableviewUITests" */;
+			buildPhases = (
+				36321382224FCC8B0018CCF5 /* Sources */,
+				36321383224FCC8B0018CCF5 /* Frameworks */,
+				36321384224FCC8B0018CCF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36321388224FCC8B0018CCF5 /* PBXTargetDependency */,
+			);
+			name = "Multi-textfield-tableviewUITests";
+			productName = "Multi-textfield-tableviewUITests";
+			productReference = 36321386224FCC8B0018CCF5 /* Multi-textfield-tableviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3632135B224FCC890018CCF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = mcf;
+				TargetAttributes = {
+					36321362224FCC8A0018CCF5 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					3632137A224FCC8B0018CCF5 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 36321362224FCC8A0018CCF5;
+					};
+					36321385224FCC8B0018CCF5 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 36321362224FCC8A0018CCF5;
+					};
+				};
+			};
+			buildConfigurationList = 3632135E224FCC890018CCF5 /* Build configuration list for PBXProject "Multi-textfield-tableview" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3632135A224FCC890018CCF5;
+			productRefGroup = 36321364224FCC8A0018CCF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36321362224FCC8A0018CCF5 /* Multi-textfield-tableview */,
+				3632137A224FCC8B0018CCF5 /* Multi-textfield-tableviewTests */,
+				36321385224FCC8B0018CCF5 /* Multi-textfield-tableviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36321361224FCC8A0018CCF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36321373224FCC8B0018CCF5 /* LaunchScreen.storyboard in Resources */,
+				36321370224FCC8B0018CCF5 /* Assets.xcassets in Resources */,
+				3632136E224FCC8A0018CCF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36321379224FCC8B0018CCF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36321384224FCC8B0018CCF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3632135F224FCC8A0018CCF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3632136B224FCC8A0018CCF5 /* ViewController.m in Sources */,
+				3655307522510EE000AA4679 /* MultiTextFieldModel.m in Sources */,
+				36321376224FCC8B0018CCF5 /* main.m in Sources */,
+				36321368224FCC8A0018CCF5 /* AppDelegate.m in Sources */,
+				3655307222510E9B00AA4679 /* MultiTextFieldTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36321377224FCC8B0018CCF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36321380224FCC8B0018CCF5 /* Multi_textfield_tableviewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36321382224FCC8B0018CCF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3632138B224FCC8B0018CCF5 /* Multi_textfield_tableviewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3632137D224FCC8B0018CCF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36321362224FCC8A0018CCF5 /* Multi-textfield-tableview */;
+			targetProxy = 3632137C224FCC8B0018CCF5 /* PBXContainerItemProxy */;
+		};
+		36321388224FCC8B0018CCF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36321362224FCC8A0018CCF5 /* Multi-textfield-tableview */;
+			targetProxy = 36321387224FCC8B0018CCF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3632136C224FCC8A0018CCF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3632136D224FCC8A0018CCF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36321371224FCC8B0018CCF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36321372224FCC8B0018CCF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3632138D224FCC8B0018CCF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3632138E224FCC8B0018CCF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36321390224FCC8B0018CCF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B82Z6RQ4T3;
+				INFOPLIST_FILE = "Multi-textfield-tableview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cunfa.Multi-textfield-tableview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36321391224FCC8B0018CCF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B82Z6RQ4T3;
+				INFOPLIST_FILE = "Multi-textfield-tableview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cunfa.Multi-textfield-tableview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36321393224FCC8B0018CCF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B82Z6RQ4T3;
+				INFOPLIST_FILE = "Multi-textfield-tableviewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cunfa.Multi-textfield-tableviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multi-textfield-tableview.app/Multi-textfield-tableview";
+			};
+			name = Debug;
+		};
+		36321394224FCC8B0018CCF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B82Z6RQ4T3;
+				INFOPLIST_FILE = "Multi-textfield-tableviewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cunfa.Multi-textfield-tableviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multi-textfield-tableview.app/Multi-textfield-tableview";
+			};
+			name = Release;
+		};
+		36321396224FCC8B0018CCF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B82Z6RQ4T3;
+				INFOPLIST_FILE = "Multi-textfield-tableviewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cunfa.Multi-textfield-tableviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Multi-textfield-tableview";
+			};
+			name = Debug;
+		};
+		36321397224FCC8B0018CCF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B82Z6RQ4T3;
+				INFOPLIST_FILE = "Multi-textfield-tableviewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cunfa.Multi-textfield-tableviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Multi-textfield-tableview";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3632135E224FCC890018CCF5 /* Build configuration list for PBXProject "Multi-textfield-tableview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3632138D224FCC8B0018CCF5 /* Debug */,
+				3632138E224FCC8B0018CCF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3632138F224FCC8B0018CCF5 /* Build configuration list for PBXNativeTarget "Multi-textfield-tableview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36321390224FCC8B0018CCF5 /* Debug */,
+				36321391224FCC8B0018CCF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36321392224FCC8B0018CCF5 /* Build configuration list for PBXNativeTarget "Multi-textfield-tableviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36321393224FCC8B0018CCF5 /* Debug */,
+				36321394224FCC8B0018CCF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36321395224FCC8B0018CCF5 /* Build configuration list for PBXNativeTarget "Multi-textfield-tableviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36321396224FCC8B0018CCF5 /* Debug */,
+				36321397224FCC8B0018CCF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3632135B224FCC890018CCF5 /* Project object */;
+}
